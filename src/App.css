@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+  main section {
+    grid-template-columns: 1fr !important;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  main {
+    padding: 18px !important;
+  }
+
+  h1 {
+    font-size: 34px !important;
+  }
+
+  section > div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  section > div:last-child {
+    padding: 24px !important;
+  }
+}
