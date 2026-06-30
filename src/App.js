@@ -72,7 +72,7 @@ function App() {
     try {
       setLoading(true);
 
-      const response = await fetch("http://35.254.254.35:8000/predict", {
+      const response = await fetch("http://34.56.128.113:8000/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
